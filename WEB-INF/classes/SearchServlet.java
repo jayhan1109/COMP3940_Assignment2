@@ -6,13 +6,13 @@ import javax.servlet.http.*;
 public class SearchServlet extends HttpServlet {
   public void doPost(HttpServletRequest request, HttpServletResponse response) 
   throws ServletException, IOException {
-    Connection con = null;
+      Connection con = null;
 		try {
                     Class.forName("oracle.jdbc.OracleDriver");
                     } 
                     catch (Exception ex) { }
 		try {
-		con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "1024wjdgh!A");
+		con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "oracle1");
 con.setAutoCommit(false);
 			//using Transactions
                  PreparedStatement preparedStatement = con.prepareStatement("INSERT INTO staff (name, address) VALUES (?,?)");
