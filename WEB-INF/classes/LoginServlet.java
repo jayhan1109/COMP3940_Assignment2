@@ -39,6 +39,7 @@ public class LoginServlet extends HttpServlet {
                         if(rs.next()){
                             HttpSession session=request.getSession();  
                             session.setAttribute("username",name);
+                            session.setAttribute("id",rs.getString("ID"));
                             request.getRequestDispatcher("profile.html").forward(request,response); 
                         }else{
                             request.getRequestDispatcher("login.html").forward(request,response); 

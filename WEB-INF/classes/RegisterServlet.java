@@ -50,10 +50,7 @@ public class RegisterServlet extends HttpServlet {
 				System.out.println("");
 			} 
 		} 
-        
-        HttpSession session=request.getSession();  
-        session.setAttribute("username",name);
-        request.getRequestDispatcher("profile.html").forward(request,response); 
+        request.getRequestDispatcher("login.html").forward(request,response); 
 
         out.close();  
     }  
