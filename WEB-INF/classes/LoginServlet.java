@@ -12,7 +12,7 @@ public class LoginServlet extends HttpServlet {
                     throws ServletException, IOException {  
         response.setContentType("text/html");  
         PrintWriter out=response.getWriter();  
-          
+
         String name=request.getParameter("username");  
         String password=request.getParameter("password");  
           

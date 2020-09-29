@@ -9,8 +9,9 @@
     <br />
     <br />
     <br />
-    <div><a href="upload.html"> Upload </a></div>
-    <div><a href="search.html"> Search </a></div>
-    <div><a href="gallery.html"> Gallery </a></div>
+    <form action="SearchServlet" method="POST" enctype="multipart/form-data">
+      Select a file: <input type="file" name="myFile" /><br /><br />
+      <input type="submit" />
+    </form>
   </body>
 </html>
