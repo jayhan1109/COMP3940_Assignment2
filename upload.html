@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <div>
-      <form action="LogoutServlet" method="GET">
-        <input type="submit" value="Logout" />
-      </form>
-    </div>
-    <br />
-    <br />
-    <br />
-    <h2>Add Photo</h2>
-    <form enctype="multipart/form-data" action="UploadServlet" method="post">
-      <table>
-        <tr>
-          <td>Enter Title For Photo :</td>
-          <td><input type="text" name="title" /></td>
-        </tr>
-        <tr>
-          <td>Select Photo</td>
-          <td><input type="file" name="photo" /></td>
-        </tr>
-      </table>
-      <p />
-      <input type="submit" value="Add Photo" />
+<body>
+<div>
+    <form action="LogoutServlet" method="GET">
+        <input type="submit" value="Logout"/>
     </form>
-  </body>
+</div>
+<br/>
+<br/>
+<br/>
+<h2>Add Photo</h2>
+<form enctype="multipart/form-data" action="UploadServlet" method="post">
+    <table>
+        <tr>
+            <td>Enter Title For Photo :</td>
+            <td><input type="text" name="title"/></td>
+        </tr>
+        <tr>
+            <td>Select Photo</td>
+            <td><input type="file" name="photo"/></td>
+        </tr>
+    </table>
+    <p/>
+    <input type="submit" value="Add Photo"/>
+</form>
+</body>
 </html>

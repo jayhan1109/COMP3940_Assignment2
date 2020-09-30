@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <div>
-      <form action="LogoutServlet" method="GET">
-        <input type="submit" value="Logout" />
-      </form>
-    </div>
-    <br />
-    <br />
-    <br />
-    <form action="SearchServlet" method="POST" enctype="multipart/form-data">
-      Select a file: <input type="file" name="myFile" /><br /><br />
-      <input type="submit" />
+<body>
+<div>
+    <form action="LogoutServlet" method="GET">
+        <input type="submit" value="Logout"/>
     </form>
-  </body>
+</div>
+<br/>
+<br/>
+<br/>
+<h2>Search a Photo</h2>
+<form action="SearchServlet" method="post">
+    <table>
+        <tr>
+            <td>Enter Title For Photo :</td>
+            <td><input type="text" name="title"/></td>
+        </tr>
+    </table>
+    <p/>
+    <input type="submit" value="Search Photo"/>
+</form>
+</body>
 </html>
