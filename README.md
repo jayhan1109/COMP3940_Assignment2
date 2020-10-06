@@ -6,6 +6,7 @@
 ### A01163840 Gyeong-Min Lee
 
 ## How To Run
+#### Change Oracle ID & PW with your local Database.
 #### We added Images ( HowToRun.zip ) explaining how to setup in Intellij
 
 
