@@ -8,7 +8,6 @@
 ## How To Run
 #### We added Images (zip file) explaining how to setup in Intellij
 
-### Now, Go to localhost:8081/
 
 ## What we did
 #### Jeong-Ho Han
