@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.empty {
+	height: 20em;
+}
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	font-family: "Archivo", sans-serif;
+}
+
+.cardXcontainer {
+	display: inline-block;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+}
+.cardXcontainer:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cardX {
+	padding: 2px 16px;
+}
+
+
+.filebox label {
+  display: inline-block;
+  padding: .5em .75em;
+  color: #fff;
+  font-style: italic;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #555BFF;
+  cursor: pointer;
+  border: 1px solid #555BFF;
+  border-radius: .25em;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.filebox label:hover {
+  background-color: #555bff;
+}
+
+.filebox label:active {
+  background-color: #555BFF;
+}
+
+.filebox input[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

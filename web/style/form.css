@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body {
+	font-family: "Archivo", sans-serif;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+}
+input[type=button], input[type = submit], input[type = file] {
+  width: 60%;
+  background-color: #555BFF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  font-family: "Archivo", sans-serif;
+  cursor: pointer;
+}
+.formContainer form,
+.formContainer div {
+	display: inline;
+}
+.formContainer input[type=submit] {
+	display: inline;
+	vertical-align: middle;
+}
