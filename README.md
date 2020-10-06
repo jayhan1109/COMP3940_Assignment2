@@ -25,8 +25,8 @@ startup.bat
 
 ## What we did
 #### Jeong-Ho Han
-  
+  Implemented Sign-Up, Sign-In, and Sign-Out / Oracle setup / SSL TLS
 #### Sung-Min Jin
-  
+  Implemented Upload, Search Page / password hash
 #### Gyeong-Min Lee
- 
+ Implemented Gallery Page / CSS
