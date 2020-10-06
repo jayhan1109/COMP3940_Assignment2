@@ -6,7 +6,7 @@
 ### A01163840 Gyeong-Min Lee
 
 ## How To Run
-#### We added Images (zip file) explaining how to setup in Intellij
+#### We added Images ( HowToRun.zip ) explaining how to setup in Intellij
 
 
 ## What we did
